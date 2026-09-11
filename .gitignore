@@ -1,0 +1,60 @@
+# Learn more: https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Expo / React Native: https://docs.expo.dev/
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+expo-export/
+
+# Native builds (CNG / prebuild)
+/ios
+/android
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+
+# Metro
+.metro-health-check*
+
+# Debug / logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing / coverage
+coverage/
+.jest/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.xcworkspace
+*.xcuserstate
+
+# Local agent folders
+.claude/
+.cursor/
